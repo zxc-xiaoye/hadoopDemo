@@ -33,6 +33,8 @@ public class DistributedCacheMapper extends Mapper<LongWritable, Text, Text, Nul
         }
 
         IOUtils.closeStream(reader);
+
+
     }
 
     @Override
